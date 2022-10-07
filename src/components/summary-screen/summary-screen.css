@@ -1,0 +1,66 @@
+.d-flex {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    color:grey;
+}
+
+
+.card {
+    height: 300px;
+    width: 600px;
+    padding: 30px;
+    margin: 100px 0px 50px 0px;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px grey;
+    justify-content: space-between;
+}
+
+
+.card__mail {
+    margin-top: 10px;
+}
+
+.card__location {
+    margin: 50px 0 32px 0;
+}
+
+.card__social {
+    vertical-align: text-bottom;
+}
+
+
+

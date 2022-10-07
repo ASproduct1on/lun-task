@@ -1,0 +1,9 @@
+.d-flex {
+    display: flex;
+}
+
+.app {
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, white 10%, #D3D3D3);
+}

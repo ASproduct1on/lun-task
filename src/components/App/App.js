@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import SummaryScreen from '../summary-screen';
+import './app.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      hello world
+    <div className='app d-flex'>
+      <SummaryScreen />
     </div>
   );
 }
