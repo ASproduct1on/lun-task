@@ -6,12 +6,17 @@
     justify-content: center;
 }
 
+.flex-dir-column {
+    flex-direction: column;
+}
+
 div, p, form, input, a, span, button {
 	box-sizing: border-box;
 }
 
 p {
 	margin: 0;
+    padding: 0;
     font-size: 14px;
     line-height: 1.4em;
 }
@@ -39,9 +44,9 @@ p {
 
 
 .card {
-    height: 300px;
-    width: 600px;
-    padding: 30px;
+    height: 243px;
+    width: 496px;
+    padding: 24px;
     margin: 100px 0px 50px 0px;
     justify-content: center;
     background-color: #fff;
@@ -49,17 +54,26 @@ p {
     justify-content: space-between;
 }
 
+.card__date {
+    height: 100%;
+    
+}
 
 .card__mail {
-    margin-top: 10px;
+    margin-top: 5px;
+    height: 100%;
 }
 
 .card__location {
-    margin: 50px 0 32px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .card__social {
-    vertical-align: text-bottom;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 
 
