@@ -14,7 +14,7 @@ const SummaryScreen = () => {
           <p className="card__social">Facebook </p>
         </div>
         <div className="card__picture">
-          <img src={teamImg} className="last-img" />
+          <img src={teamImg} className="last-img" alt="gg wp" />
         </div>
       </div>
       <div className="d-flex jc-center">
