@@ -1,7 +1,7 @@
 import React from "react";
 import "./summary-screen.css";
 import Button from "../button/button";
-import teamImg from "./assets/team.jpg";
+import cat2 from "./assets/cat2.jpg";
 
 const SummaryScreen = () => {
   return (
@@ -14,7 +14,7 @@ const SummaryScreen = () => {
           <p className="card__social">Facebook </p>
         </div>
         <div className="card__picture">
-          <img src={teamImg} className="last-img" alt="gg wp" />
+          <img src={cat2} className="last-img" alt="gg wp" />
         </div>
       </div>
       <div className="d-flex jc-center">

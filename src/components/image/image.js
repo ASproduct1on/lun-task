@@ -1,17 +1,11 @@
 import React from "react";
 import classNames from "classnames";
 
-import './image.css';
+import "./image.css";
 
+const Image = ({ src, alt, className }) => {
+  const classes = classNames(className);
+  return <img src={src} alt={alt} className={classes} />;
+};
 
-const Img = ({ src, alt, className}) => {
-    const classes = classNames(
-        className,
-    )
-    return (
-        <img src={src} alt={alt} className={classes} />
-    )    
-
-}
-
-export default Img
+export default Image;
