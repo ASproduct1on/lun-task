@@ -1,10 +1,10 @@
 import React from "react";
-import SummaryScreen from "../summary-screen/summary-screen";
+import SummaryScreen from "../summaryScreen/summaryScreen";
 import "./app.css";
 
 const App = () => {
   return (
-    <div className="app d-flex">
+    <div className="app">
       <SummaryScreen />
     </div>
   );

@@ -1,4 +1,4 @@
-import "./summary-screen.css";
+import "./summaryScreen.css";
 import Button from "../button/button";
 import cat2 from "./assets/cat2.jpg";
 
@@ -20,10 +20,10 @@ const SummaryScreen = () => {
         <Button className="Button--primary" icon="" disabled={false}>
           Пройти заново
         </Button>
-        <Button className="" icon="arrow-left" disabled={false}>
+        <Button className="arrow--left" icon="arrow--left" disabled={false}>
           Предыдущая
         </Button>
-        <Button className="" icon="arrow-right" disabled={false}>
+        <Button className="arrow--right" icon="arrow--right" disabled={false}>
           Следующая
         </Button>
       </div>
