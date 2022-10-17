@@ -1,4 +1,3 @@
-import React from "react";
 import "./summary-screen.css";
 import Button from "../button/button";
 import cat2 from "./assets/cat2.jpg";
@@ -6,8 +5,8 @@ import cat2 from "./assets/cat2.jpg";
 const SummaryScreen = () => {
   return (
     <div>
-      <div className="card d-flex">
-        <div className="card__date d-flex flex-dir-column">
+      {/* <div className="card">
+        <div className="card__date">
           <h2>Александр Александрович</h2>
           <p className="card__mail ">Andrii@mail.ua</p>
           <p className="card__location ">Москва, Украина</p>
@@ -16,10 +15,16 @@ const SummaryScreen = () => {
         <div className="card__picture">
           <img src={cat2} className="last-img" alt="gg wp" />
         </div>
-      </div>
-      <div className="d-flex jc-center">
-        <Button className="d-flex" disabled={false}>
+      </div> */}
+      <div className="card__button">
+        <Button className="Button--primary" icon="" disabled={false}>
           Пройти заново
+        </Button>
+        <Button className="" icon="arrow-left" disabled={false}>
+          Предыдущая
+        </Button>
+        <Button className="" icon="arrow-right" disabled={false}>
+          Следующая
         </Button>
       </div>
     </div>
