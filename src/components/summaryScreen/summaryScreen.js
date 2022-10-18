@@ -1,4 +1,4 @@
-import "./summaryScreen.css";
+import "./SummaryScreen.css";
 import Button from "../button/button";
 // import cat2 from "./assets/cat2.jpg";
 
