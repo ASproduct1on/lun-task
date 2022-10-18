@@ -1,6 +1,6 @@
-import "./summary-screen.css";
+import "./summaryScreen.css";
 import Button from "../button/button";
-import cat2 from "./assets/cat2.jpg";
+// import cat2 from "./assets/cat2.jpg";
 
 const SummaryScreen = () => {
   return (

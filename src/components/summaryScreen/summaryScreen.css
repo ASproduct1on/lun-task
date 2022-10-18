@@ -1,15 +1,3 @@
-.d-flex {
-  display: flex;
-}
-
-.jc-center {
-  justify-content: center;
-}
-
-.flex-dir-column {
-  flex-direction: column;
-}
-
 div,
 p,
 form,
