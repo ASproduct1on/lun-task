@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import "./button.css";
+import "./Button.css";
 
 const Button = ({ children, onClick, className, disabled, active }) => {
   const classes = classNames("Button", className, { active });
