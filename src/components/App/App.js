@@ -1,6 +1,6 @@
 import React from "react";
 import SummaryScreen from "../SummaryScreen/SummaryScreen";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   return (
