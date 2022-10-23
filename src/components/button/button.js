@@ -1,8 +1,8 @@
 import classNames from "classnames";
 import "./Button.css";
 
-const Button = ({ children, onClick, className, disabled, active }) => {
-  const classes = classNames("Button", className, { active });
+const Button = ({ children, className, disabled, onClick }) => {
+  const classes = classNames("Button", className);
 
   return (
     <div>

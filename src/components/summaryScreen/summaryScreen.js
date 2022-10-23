@@ -17,13 +17,13 @@ const SummaryScreen = () => {
         </div>
       </div> */}
       <div className="card__button">
-        <Button className="Button--primary" icon="" disabled={false}>
+        <Button className="Button--primary" disabled={false}>
           Пройти заново
         </Button>
-        <Button className="" icon="arrow-left" disabled={false}>
+        <Button className="" disabled={false}>
           Предыдущая
         </Button>
-        <Button className="" icon="arrow-right" disabled={false}>
+        <Button className="" disabled={false}>
           Следующая
         </Button>
       </div>
