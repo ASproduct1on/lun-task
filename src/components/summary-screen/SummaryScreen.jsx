@@ -1,5 +1,6 @@
-import "./SummaryScreen.css";
-import Button from "../Button/Button";
+import "./summary-screen.css";
+import Button from "../button/Button";
+
 // import cat2 from "./assets/cat2.jpg";
 
 const SummaryScreen = () => {
@@ -17,15 +18,9 @@ const SummaryScreen = () => {
         </div>
       </div> */}
       <div className="card__button">
-        <Button className="Button--primary" disabled={false}>
-          Пройти заново
-        </Button>
-        <Button className="" disabled={false}>
-          Предыдущая
-        </Button>
-        <Button className="" disabled={false}>
-          Следующая
-        </Button>
+        <Button className="Button Button--primary">Пройти заново</Button>
+        <Button className="">Предыдущая</Button>
+        <Button className="">Следующая</Button>
       </div>
     </div>
   );
