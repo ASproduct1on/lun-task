@@ -44,3 +44,17 @@
 .Button--primary:hover {
   background-color: #fdab31;
 }
+
+.Button--disabled {
+  pointer-events: none;
+  color: #fff;
+  background-color: #bbb;
+  cursor: default;
+}
+
+.Button--active {
+  flex: 0 1 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

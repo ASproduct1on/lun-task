@@ -18,8 +18,22 @@ const SummaryScreen = () => {
         </div>
       </div> */}
       <div className="card__button">
-        <Button className="Button Button--primary">Пройти заново</Button>
-        <Button className="">Предыдущая</Button>
+        <Button
+          onClick={() => {
+            console.log("URA");
+          }}
+          disabled
+        >
+          Пройти заново
+        </Button>
+        <Button
+          className="Button--primary"
+          onClick={() => {
+            console.log("URA");
+          }}
+        >
+          Предыдущая
+        </Button>
         <Button className="">Следующая</Button>
       </div>
     </div>
