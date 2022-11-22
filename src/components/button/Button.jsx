@@ -1,14 +1,16 @@
 import React from "react";
 import "./button.css";
 
-const Button = ({ children, className, disabled, onClick }) => {
-  const classNames = `Button ${className} ${
-    disabled ? "Button--disabled" : "Button--active"
-  }`;
+import classNames from "classnames";
+
+const Button = ({ children, primary, disabled, onClick }) => {
+  const classes = classNames("Button", {
+    "Button--primary": primary,
+  });
 
   return (
     <div>
-      <button className={classNames} disabled={disabled} onClick={onClick}>
+      <button className={classes} disabled={disabled} onClick={onClick}>
         {children}
       </button>
     </div>

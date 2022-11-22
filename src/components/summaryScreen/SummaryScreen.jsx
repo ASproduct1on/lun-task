@@ -27,7 +27,7 @@ const SummaryScreen = () => {
           Пройти заново
         </Button>
         <Button
-          className="Button--primary"
+          primary
           onClick={() => {
             console.log("URA");
           }}

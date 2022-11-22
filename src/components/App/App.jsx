@@ -1,5 +1,5 @@
 import React from "react";
-import SummaryScreen from "../summary-screen/SummaryScreen";
+import SummaryScreen from "../summaryScreen/SummaryScreen";
 import "./app.css";
 
 const App = () => {
