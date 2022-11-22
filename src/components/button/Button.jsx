@@ -1,8 +1,12 @@
-import classNames from "classnames";
-import "./Button.css";
+import React from "react";
+import "./button.css";
 
-const Button = ({ children, onClick, className, disabled, active }) => {
-  const classes = classNames("Button", className, { active });
+import classNames from "classnames";
+
+const Button = ({ children, primary, disabled, onClick }) => {
+  const classes = classNames("Button", {
+    "Button--primary": primary,
+  });
 
   return (
     <div>
